@@ -1,0 +1,91 @@
+/* main container  */
+#main_container {
+  height: 570px;
+  background-color: #0d1117;
+}
+
+#contactBox {
+  border-right: 1px solid;
+}
+#contactBox input[type='search'] {
+  border: none;
+  background: none;
+  outline: none;
+  color: #a8a9aa;
+}
+.searchSuggestionBox {
+  border: 1px solid;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.h-0 {
+  height: 0 !important;
+}
+.activeChat {
+  background-color: #000000 !important;
+}
+#contactBox h4 {
+  font-family: 'Montserrat';
+}
+#contactBox ul {
+  font-family: 'Montserrat';
+}
+#contactBox ul li {
+  background-color: #090b0f;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#contactBox ul li:hover {
+  background-color: #000000;
+  cursor: pointer;
+}
+.logoutBtn {
+  border: none;
+  background-color: rgba(37, 103, 125, 0.772);
+  color: #ffff;
+}
+
+#contactBox::-webkit-scrollbar {
+  display: none;
+}
+#chat::-webkit-scrollbar {
+  display: none;
+}
+#chat {
+  height: 450px;
+  border-top: 1px solid;
+  overflow: scroll;
+}
+.msgTime {
+  font-size: 12px !important;
+  color: #a8a9aa !important;
+}
+.msg {
+  max-width: 200px;
+  font-size: 13px;
+}
+#typeMsg {
+  background: none;
+  border: none;
+  color: #a8a9aa;
+  outline: none;
+}
+.sendBtn {
+  background: rgb(178, 10, 10);
+  border: none;
+  color: white;
+  width: 70px;
+}
+.sender {
+  background-color: rgba(57, 53, 53, 0.632);
+  color: #a8a9aa;
+}
+.receiver {
+  background-color: rgba(23, 11, 11, 0.632);
+  color: #7f8185;
+  min-width: 50px !important;
+}
+
+.contacts li p {
+  font-size: 10px !important;
+}
